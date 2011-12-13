@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 86 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 87 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 88 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 89 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 90 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 91 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 92 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 93 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 94 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 95 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 96 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 97 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;pianomain.v&quot; line 98 </arg>Connection to input port &apos;<arg fmt="%s" index="2">speed</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;sin_generator.v&quot; line 50 </arg>Connection to input port &apos;<arg fmt="%s" index="2">step</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">temp_wave&lt;2:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="old" >&quot;<arg fmt="%s" index="1">volume_control.v</arg>&quot; line <arg fmt="%d" index="2">28</arg>: The result of a <arg fmt="%d" index="3">10</arg>x<arg fmt="%d" index="4">4</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">13</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_display_mux0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Sun Dec 11 20:35:27 2011
+# Process ID: 4112
+# Log file: X:/Xilinx/piano/planAhead_run_1/planAhead.log
+# Journal file: X:/Xilinx/piano/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source X:/Xilinx/piano/pa.fromHdl.tcl
+startgroup
+set_property loc PAD63 [get_ports {buttons[4]}]
+endgroup
+startgroup
+set_property loc PAD178 [get_ports vdown]
+endgroup
+startgroup
+set_property loc PAD180 [get_ports vup]
+endgroup
+save_design
+exit
+stop_gui

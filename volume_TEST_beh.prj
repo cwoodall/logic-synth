@@ -1,0 +1,3 @@
+verilog work "volume_control.v"
+verilog work "volume_TEST.v"
+verilog work "C:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v"

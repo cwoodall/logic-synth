@@ -1,0 +1,24 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 O.61xd
+#Current Working Directory:
+#:D   X:\Xilinx\piano
+#Date/Time:
+#:T   Sun Dec 04 18:14:07 2011
+#------------------------------
+	#Reading pianomain.ncd...
+	#Loading device for application Rf_Device from file '3s1000.nph' in environment C:\Xilinx\13.2\ISE_DS\ISE\.
+	#   "pianomain" is an NCD, version 3.2, device xc3s1000, package ft256, speed -5
+	#Design creation date: 2011.12.04.23.12.04
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+unselect -all
+	#4
+select comp 'sg8/slut/Mrom_val299'
+	#comp "sg8/slut/Mrom_val299",  site "SLICE_X39Y52",  type = SLICEL  (RPM grid X60Y110)

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Xilinx\piano\pianomain.ncd
+OUTFILE=X:\Xilinx\piano\pianomain.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=X:\Xilinx\piano
+LICENSE=ISE
+USER_INFO=__174135685_174135686_174419191

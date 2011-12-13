@@ -1,0 +1,34 @@
+
+
+NET "audio_out" LOC = E10;
+NET "clk_50MHz" LOC = T9;
+
+
+NET "buttons[12]" LOC = C11;
+NET "buttons[11]" LOC = D11;
+NET "buttons[10]" LOC = C12;
+NET "buttons[9]" LOC = D12;
+NET "buttons[8]" LOC = E11;
+NET "buttons[7]" LOC = B16;
+# We skip R3 here because of reasons
+NET "buttons[6]" LOC = C16;
+NET "buttons[5]" LOC = D16;
+NET "buttons[4]" LOC = E16;
+NET "buttons[3]" LOC = G15;
+NET "buttons[2]" LOC = H15;
+NET "buttons[1]" LOC = J16;
+NET "buttons[0]" LOC = K15;
+NET "leds[0]" LOC = P11;
+NET "leds[1]" LOC = P12;
+NET "leds[2]" LOC = N12;
+NET "leds[3]" LOC = P13;
+NET "leds[4]" LOC = N14;
+NET "leds[5]" LOC = L12;
+NET "leds[6]" LOC = P14;
+NET "leds[7]" LOC = K12;
+
+# PlanAhead Generated physical constraints 
+
+
+NET "vdown" LOC = L14;
+NET "vup" LOC = M13;

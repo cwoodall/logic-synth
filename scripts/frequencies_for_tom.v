@@ -1,0 +1,13 @@
+parameter A4 = 111; // 440.000 Hz
+parameter As4 = 104; // 466.164 Hz
+parameter B4 = 98; // 493.883 Hz
+parameter C4 = 186; // 261.626 Hz
+parameter C5 = 93; // 523.251 Hz
+parameter Cs4 = 176; // 277.183 Hz
+parameter D4 = 166; // 293.665 Hz
+parameter Ds4 = 157; // 311.127 Hz
+parameter E4 = 148; // 329.628 Hz
+parameter F4 = 139; // 349.228 Hz
+parameter Fs4 = 132; // 369.994 Hz
+parameter G4 = 124; // 391.995 Hz
+parameter Gs4 = 117; // 415.305 Hz

@@ -1,0 +1,6 @@
+verilog work "wave_luts.v"
+verilog work "volume_control.v"
+verilog work "sumer.v"
+verilog work "sin_generator.v"
+verilog work "lib.v"
+verilog work "pianomain.v"

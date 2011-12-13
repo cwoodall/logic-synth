@@ -1,0 +1,34 @@
+//! **************************************************************************
+// Written by: Map O.61xd on Sun Dec 11 22:16:25 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "vup" LOCATE = SITE "M13" LEVEL 1;
+COMP "clk_50MHz" LOCATE = SITE "T9" LEVEL 1;
+COMP "audio_out" LOCATE = SITE "E10" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "P12" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "N12" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "P13" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "L12" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "P14" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "K12" LEVEL 1;
+COMP "vdown" LOCATE = SITE "L14" LEVEL 1;
+COMP "buttons<10>" LOCATE = SITE "C12" LEVEL 1;
+COMP "buttons<11>" LOCATE = SITE "D11" LEVEL 1;
+COMP "buttons<12>" LOCATE = SITE "C11" LEVEL 1;
+COMP "buttons<0>" LOCATE = SITE "K15" LEVEL 1;
+COMP "buttons<1>" LOCATE = SITE "J16" LEVEL 1;
+COMP "buttons<2>" LOCATE = SITE "H15" LEVEL 1;
+COMP "buttons<3>" LOCATE = SITE "G15" LEVEL 1;
+COMP "buttons<4>" LOCATE = SITE "E16" LEVEL 1;
+COMP "buttons<5>" LOCATE = SITE "D16" LEVEL 1;
+COMP "buttons<6>" LOCATE = SITE "C16" LEVEL 1;
+COMP "buttons<7>" LOCATE = SITE "B16" LEVEL 1;
+COMP "buttons<8>" LOCATE = SITE "E11" LEVEL 1;
+COMP "buttons<9>" LOCATE = SITE "D12" LEVEL 1;
+NET "clk_50MHz_BUFGP/IBUFG" BEL "clk_50MHz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

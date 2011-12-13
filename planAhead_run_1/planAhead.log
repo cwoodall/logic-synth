@@ -1,0 +1,171 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Sun Dec 11 20:35:27 2011
+# Process ID: 4112
+# Log file: X:/Xilinx/piano/planAhead_run_1/planAhead.log
+# Journal file: X:/Xilinx/piano/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [ArchReader-0] Loading parts and site information from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\arch.xml
+Parsing RTL primitives file [C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source X:/Xilinx/piano/pa.fromHdl.tcl
+# create_project -name piano -dir "X:/Xilinx/piano/planAhead_run_1" -part xc3s1000ft256-5
+Parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+create_project: Time (s): 10.648w.  Memory (MB): 509.316p 27.316g
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top pianomain $srcset
+# set_param project.paUcfFile  "pianomain.ucf"
+# set hdlfile [add_files [list {wave_luts.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {volume_control.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {sumer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {sin_generator.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {lib.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {pianomain.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "pianomain.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1000ft256-5
+INFO: [PlanAhead-58] Using Verific elaboration
+Parsing VHDL file "C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing package <attributes>.
+Analyzing Verilog file "X:\Xilinx\piano\wave_luts.v" into library work
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:8]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:9]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:10]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:11]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:12]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:13]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:14]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:15]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:16]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:17]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:18]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:19]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:20]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:21]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:22]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:23]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:24]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:25]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:26]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:27]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:28]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:29]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:30]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:31]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:32]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:33]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:34]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:35]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:36]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:37]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:38]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:39]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:40]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:41]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:42]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:43]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:44]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:45]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:46]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:47]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:48]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:49]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:50]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:51]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:52]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:53]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:54]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:55]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:56]
+WARNING: [HDL-568] Constant value is truncated to fit in <10> bits. [X:\Xilinx\piano\wave_luts.v:57]
+WARNING: [Common-14] Message 'HDL-568' appears more than 50 times and has been disabled. User can change this message limit to see more message instances.
+Analyzing Verilog file "X:\Xilinx\piano\volume_control.v" into library work
+Analyzing Verilog file "X:\Xilinx\piano\sumer.v" into library work
+Declaration of multiple ports on the same line is valid but can affect code readability [X:\Xilinx\piano\sumer.v:23]
+Analyzing Verilog file "X:\Xilinx\piano\sin_generator.v" into library work
+Analyzing Verilog file "X:\Xilinx\piano\lib.v" into library work
+Declaration of multiple ports on the same line is valid but can affect code readability [X:\Xilinx\piano\lib.v:55]
+Declaration of multiple ports on the same line is valid but can affect code readability [X:\Xilinx\piano\lib.v:108]
+Analyzing Verilog file "X:\Xilinx\piano\pianomain.v" into library work
+WARNING: [HDL-413] Result of 27-bit expression is truncated to fit in 26-bit target. [X:\Xilinx\piano\lib.v:40]
+WARNING: [HDL-413] Result of 11-bit expression is truncated to fit in 10-bit target. [X:\Xilinx\piano\sin_generator.v:35]
+WARNING: [HDL-413] Result of 13-bit expression is truncated to fit in 12-bit target. [X:\Xilinx\piano\sin_generator.v:46]
+WARNING: [HDL-189] Size mismatch in connection of port <step>. Formal port size is 10-bit while actual signal size is 12-bit. [X:\Xilinx\piano\sin_generator.v:49]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:84]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:85]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:86]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:87]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:88]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:89]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:90]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:91]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:92]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:93]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:94]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:95]
+WARNING: [HDL-189] Size mismatch in connection of port <speed>. Formal port size is 10-bit while actual signal size is 32-bit. [X:\Xilinx\piano\pianomain.v:96]
+Removing all analyzed parse trees
+INFO: [ArchReader-18] Reading macro library C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan3/hd_int_macros.edn]
+INFO: [ArchReader-7] Loading clock regions from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan3/spartan3/xc3s1000/ClockRegion.xml
+INFO: [ArchReader-8] Loading clock buffers from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan3/spartan3/xc3s1000/ClockBuffers.xml
+INFO: [ArchReader-3] Loading package from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan3/spartan3/xc3s1000/ft256/Package.xml
+INFO: [ArchReader-4] Loading io standards from C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [ArchReader-5] Loading pkg sso from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan3/spartan3/xc3s1000/ft256/SSORules.xml
+INFO: [GDRC-0] Loading list of drcs for the architecture : C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan3/drc.xml
+INFO: [LIB-0] Reading timing library C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan3/spartan3/spartan3-5.lib .
+INFO: [LIB-1] Done reading timing library C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan3/spartan3/spartan3-5.lib .
+Parsing UCF File [X:\Xilinx\piano\pianomain.ucf]
+CRITICAL WARNING: [Designutils-30] Unrecognized site Ell [X:\Xilinx\piano\pianomain.ucf:12]
+CRITICAL WARNING: [Designutils-31] Unrecognized symbol M13 [X:\Xilinx\piano\pianomain.ucf:21]
+CRITICAL WARNING: [Designutils-31] Unrecognized symbol L14 [X:\Xilinx\piano\pianomain.ucf:22]
+Finished Parsing UCF File [X:\Xilinx\piano\pianomain.ucf]
+INFO: [Designutils-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project-5] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_rtl_design: Time (s): 11.445w.  Memory (MB): 613.461p 104.145g
+startgroup
+startgroup
+set_property loc PAD63 [get_ports {buttons[4]}]
+set_property loc PAD63 [get_ports {buttons[4]}]
+endgroup
+endgroup
+startgroup
+startgroup
+set_property loc PAD178 [get_ports vdown]
+set_property loc PAD178 [get_ports vdown]
+endgroup
+endgroup
+startgroup
+startgroup
+set_property loc PAD180 [get_ports vup]
+set_property loc PAD180 [get_ports vup]
+endgroup
+endgroup
+save_design
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead
