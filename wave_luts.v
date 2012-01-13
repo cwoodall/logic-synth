@@ -1,3 +1,4 @@
+
 `timescale 1ns / 1ps
 module Sine_LUT ( step, val );
 	input [9:0] step;
